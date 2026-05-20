@@ -5,10 +5,10 @@ const bcrypt = require('bcrypt');
 const path = require('path');
 
 
-const Users = require('./models/users.models');
-const Products = require('./models/products.models');
-const Orders = require('./models/orders.models');
-const Cart = require('./models/cart.models');
+const Users = require('./backend/src/models/users.models');
+const Products = require('./backend/src/models/products.models');
+const Orders = require('./backend/src/models/orders.models');
+const Cart = require('./backend/src/models/cart.models');
 const cors = require('cors');
 
 require("dotenv").config();
